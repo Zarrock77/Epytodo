@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 5px;
+    margin-left: 9px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.slogan {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.waves {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.wave-footer {
+    text-align: center;
+    padding-top: 5px;
+    width: 100vw;
+    height: 600px;
+    background-color: #f5f2eb;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: -100px;
+}
+
+@media screen and (max-width: 1200px) {
+    .wave-footer {
+        margin-top: -7px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .wave-footer {
+        margin-top: -7px;
+    }
+
+    .wave-footer img {
+        width: 360px;
+    }
+}
+
+.getstarted {
+    border-radius: 7px;
+    border: 1px solid blueviolet;
+}
+
+.content {
+    text-align: center;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+}

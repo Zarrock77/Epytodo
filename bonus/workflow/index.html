@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Slyres | Your workflow space</title>
+
+        <meta name="description" description="">
+
+        <link rel="stylesheet" type="text/css" href="/assets/main.css">
+        <link rel="stylesheet" type="text/css" href="/workflow/style.css">
+        <script src="/workflow/script.js"></script>
+    </head>
+    <body>
+        <div class="navtop">
+            <img class="logo" src="/assets/slyres_logo.png"/>
+            <div class="profile">
+                <button id="profile-btn" class="profile-button">
+                    <img class="profile-picture" width="40px" src="/assets/slyres_profile.png"/>
+                    <div id="profile-name" class="profile-name"></div>
+                </button>
+            </div>
+            <div id="profile-panel" class="profile-panel">
+                <button id="logout" class="button-fit">Log out</button>
+            </div>
+        </div>
+        <div id="progress-bar" class="progress-bar progress-animation"></div>
+        <div class="content">
+            <div class="content-head">
+                <button id="add" class="button">Add a new task</button>
+            </div>
+            <div id="todolist" class="todolist"></div>
+        </div>
+        <div id="add-form" class="add-form">
+            <h1>Create a task</h1>
+            <input id="add-title" placeholder="Task Name" type="text"/>
+            <input id="add-description" placeholder="Description" type="text"/>
+            <p id="description" class="error">An error occured</p>
+            <button id="cancel" class="button-outlined">Cancel</button>
+            <button id="continue" class="button button-add-right">Continue</button>
+        </div>
+    </body>
+</html>
